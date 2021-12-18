@@ -1,0 +1,24 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3f542ee9-35fa-4600-92f4-72913ea55c64)
+
+  (paper "A5")
+
+  (title_block
+    (rev "A")
+    (company "Erdapfel")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "VDD_CORE_EN" (shape input) (at 71.755 96.52 180)
+    (effects (font (size 0.8 0.8)) (justify right))
+    (uuid 1c0a1207-dcdb-42b1-b518-5dcc12c34178)
+  )
+  (hierarchical_label "VDD_SYS_EN" (shape input) (at 71.755 93.98 180)
+    (effects (font (size 0.8 0.8)) (justify right))
+    (uuid eebabbf0-d34a-49b9-9bd7-d815e417d7d5)
+  )
+)
