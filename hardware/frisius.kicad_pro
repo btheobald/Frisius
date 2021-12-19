@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "atlas.kicad_pro",
+    "filename": "frisius.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -433,20 +433,12 @@
       "Processor"
     ],
     [
-      "e1207802-1089-4bfa-944f-d4f348e5fb72",
-      "SD Card"
-    ],
-    [
       "88acd69e-faef-4ddd-88f1-6c7bfb870330",
       "Sensors"
     ],
     [
       "450c4339-df1d-4ed1-b57e-227d8698461a",
       "BMS"
-    ],
-    [
-      "4b01e1c0-4442-4328-a9ba-5315f5051fd1",
-      "Display B2B"
     ],
     [
       "d6a81b3b-912c-47c7-b234-5345a0da5522",
@@ -459,6 +451,18 @@
     [
       "37545995-a677-4b8b-afa4-b7587dd9a039",
       "Power"
+    ],
+    [
+      "574b0a16-6cf3-400e-b4ec-a1d9ebc35198",
+      "Mechanical"
+    ],
+    [
+      "4b01e1c0-4442-4328-a9ba-5315f5051fd1",
+      "Display B2B"
+    ],
+    [
+      "e1207802-1089-4bfa-944f-d4f348e5fb72",
+      "SD Card"
     ]
   ],
   "text_variables": {}
