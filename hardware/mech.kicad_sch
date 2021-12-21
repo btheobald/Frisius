@@ -2,7 +2,11 @@
 
   (uuid d884b00b-dbc9-4f2d-8dd3-a4e65fd2b3f4)
 
-  (paper "A5")
+  (paper "A4")
+
+  (title_block
+    (company "Frisius")
+  )
 
   (lib_symbols
     (symbol "Connector:TestPoint_Alt" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
