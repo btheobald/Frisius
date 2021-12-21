@@ -196,7 +196,7 @@
     (pad "S2" thru_hole roundrect (at 4.375 -2.83 270) (size 1 2) (drill oval 0.65 1.6) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp 6e68f0cd-800e-4167-9553-71fc59da1eeb))
     (pad "S3" thru_hole roundrect (at -6 0.78) (size 1 2) (drill oval 0.65 1.6) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp ec5c2062-3a41-4636-8803-069e60a1641a))
     (pad "S4" thru_hole roundrect (at 6 0.78) (size 1 2) (drill oval 0.65 1.6) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp 5edcefbe-9766-42c8-9529-28d0ec865573))
-    (model "/home/bt/Desktop/ki_libs/models/Connector_USB_bt.model/124019032112A--3DModel-STEP-533217.STEP"
+    (model "${KIPRJMOD}/ki_libs/models/bt_Connector_USB.model/124019032112A--3DModel-STEP-533217.STEP"
       (offset (xyz -12.73 -5.5 0.45))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -409,7 +409,7 @@
     (pad "2" smd rect locked (at -1 1 90) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 46c5e144-feb9-4bfa-909f-4d7b4958ffba))
     (pad "3" smd rect locked (at 1 1 90) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ddc3856-a34c-4083-94ff-29d28f1882f0))
     (pad "4" smd rect locked (at 1 -1 90) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 48948923-252b-4f25-8c57-169ae10b2f20))
-    (model "/home/bt/Desktop/ki_libs/models/Package_LGA_bt.model/MS563702BA03-50.step"
+    (model "${KIPRJMOD}/ki_libs/models/bt_Package_LGA.model/MS563702BA03-50.step"
       (offset (xyz 0 0 0.9))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -499,7 +499,7 @@
     (pad "10" smd rect locked (at -6.945 -3.375 180) (size 1.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bebcd76e-f3e0-478c-b018-cdb5be2b62dc))
     (pad "11" smd rect locked (at 6.945 -3.375 180) (size 1.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4b304423-4e0e-4192-bdb3-42d5508c8f5c))
     (pad "12" smd rect locked (at 6.945 4.825 180) (size 1.5 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2fdc1b46-7886-41a6-b8c8-720bf1db07c5))
-    (model "/home/bt/Desktop/ki_libs/models/Connector_uSD_bt.model/MEM2067-02-180-00-A_REVB.step"
+    (model "${KIPRJMOD}/ki_libs/models/bt_Connector_uSD.model/MEM2067-02-180-00-A_REVB.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -650,7 +650,7 @@
       (effects (font (size 1.27 1.27) (thickness 0.15)))
       (tstamp 969dddf0-b9be-43a4-b761-33b023408b74)
     )
-    (pad "1" thru_hole circle locked (at 0 0) (size 5 5) (drill 2.5) (layers *.Cu *.Mask) (tstamp bc092c4f-4a67-4ac1-820e-ac7f345eee98))
+    (pad "1" thru_hole circle locked (at 0 0) (size 5 5) (drill 2.5) (layers *.Cu *.Mask) (tstamp 736bc9a6-e344-4656-8b87-21bea5375b16))
   )
 
   (footprint "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y" (layer "F.Cu")
@@ -3834,7 +3834,7 @@
     (pad "8" smd rect locked (at 0.4 -0.7685 90) (size 0.225 0.563) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c2298f7d-2851-451c-b65c-06877818e29e))
     (pad "9" smd rect locked (at 0 -0.7685 90) (size 0.225 0.563) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9d004bd8-253c-460f-9ecf-eed41d54e080))
     (pad "10" smd rect locked (at -0.4 -0.7685 90) (size 0.225 0.563) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5253a806-e245-42a0-9390-87974407a46f))
-    (model "/home/bt/Desktop/ki_libs/models/Package_QFN_bt.model/UMLP-10-1.4x1.8_P0.4mm.step"
+    (model "${KIPRJMOD}/ki_libs/models/bt_Package_QFN.model/UMLP-10-1.4x1.8_P0.4mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
