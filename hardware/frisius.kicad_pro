@@ -103,31 +103,41 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_clearance": 0.09,
+        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.254,
+        "min_hole_to_hole": 0.5,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.09,
+        "min_via_annular_width": 0.13,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.1,
+        0.127,
+        0.15,
+        0.18,
+        0.2,
+        0.254
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         }
       ],
-      "zones_allow_external_fillets": false,
+      "zones_allow_external_fillets": true,
       "zones_use_no_outline": true
     },
     "layer_presets": []
@@ -353,7 +363,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.09,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -433,20 +443,24 @@
       "Processor"
     ],
     [
-      "88acd69e-faef-4ddd-88f1-6c7bfb870330",
+      "f177a68e-766e-414a-8201-ac090cc077c2",
       "Sensors"
+    ],
+    [
+      "d09c9d73-a3ac-404b-b5ac-4477ad82de80",
+      "GPS"
     ],
     [
       "450c4339-df1d-4ed1-b57e-227d8698461a",
       "BMS"
     ],
     [
-      "d6a81b3b-912c-47c7-b234-5345a0da5522",
-      "USB"
+      "25e5a417-7104-4337-b2bb-f4afd5e8777c",
+      "Display B2B"
     ],
     [
-      "4fbc9421-d061-4e0a-8f19-cf723f5fa7ca",
-      "GPS"
+      "d6a81b3b-912c-47c7-b234-5345a0da5522",
+      "USB"
     ],
     [
       "37545995-a677-4b8b-afa4-b7587dd9a039",
@@ -455,10 +469,6 @@
     [
       "574b0a16-6cf3-400e-b4ec-a1d9ebc35198",
       "Mechanical"
-    ],
-    [
-      "4b01e1c0-4442-4328-a9ba-5315f5051fd1",
-      "Display B2B"
     ],
     [
       "e1207802-1089-4bfa-944f-d4f348e5fb72",

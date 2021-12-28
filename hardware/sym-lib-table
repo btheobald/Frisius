@@ -7,4 +7,5 @@
   (lib (name "bt_Sensor_Environmental")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_Sensor_Environmental.kicad_sym")(options "")(descr ""))
   (lib (name "bt_Sensor_Motion")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_Sensor_Motion.kicad_sym")(options "")(descr ""))
   (lib (name "bt_power")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_power.kicad_sym")(options "")(descr ""))
+  (lib (name "bt_Power_Management")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_Power_Management.kicad_sym")(options "")(descr ""))
 )
