@@ -8,4 +8,6 @@
   (lib (name "bt_Sensor_Motion")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_Sensor_Motion.kicad_sym")(options "")(descr ""))
   (lib (name "bt_power")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_power.kicad_sym")(options "")(descr ""))
   (lib (name "bt_Power_Management")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_Power_Management.kicad_sym")(options "")(descr ""))
+  (lib (name "bt_PMIC_Linear")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_PMIC_Linear.kicad_sym")(options "")(descr ""))
+  (lib (name "bt_PMIC_DCDC_Buck")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/symbols/bt_PMIC_DCDC_Buck.kicad_sym")(options "")(descr ""))
 )
