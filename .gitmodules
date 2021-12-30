@@ -1,0 +1,4 @@
+[submodule "hardware/ki_libs"]
+	path = hardware/ki_libs
+	url = git@github.com:btheobald/bt_ki_libs.git
+	branch = main
