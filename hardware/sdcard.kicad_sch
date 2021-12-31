@@ -322,7 +322,6 @@
     )
   )
 
-
   (junction (at 142.24 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 02669773-b19b-4520-a1b5-111a52b17adf)
   )
@@ -985,7 +984,7 @@
     (property "Footprint" "bt_Connector_uSD:GCT_MEM2067-02-180-00-A_REVB" (id 2) (at 162.56 82.55 0)
       (effects (font (size 0.8 0.8)) (justify left))
     )
-    (property "Datasheet" "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" (id 3) (at 181.61 97.79 0)
+    (property "Datasheet" "" (id 3) (at 181.61 97.79 0)
       (effects (font (size 0.8 0.8)) hide)
     )
     (pin "1" (uuid 3441c726-21de-4259-85ea-911d8514851c))

@@ -5,4 +5,5 @@
   (lib (name "bt_Package_LGA")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/footprints/bt_Package_LGA.pretty")(options "")(descr ""))
   (lib (name "bt_Package_QFN")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/footprints/bt_Package_QFN.pretty")(options "")(descr ""))
   (lib (name "bt_Package_DFN")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/footprints/bt_Package_DFN.pretty")(options "")(descr ""))
+  (lib (name "bt_Package_SON")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/footprints/bt_Package_SON.pretty")(options "")(descr ""))
 )
