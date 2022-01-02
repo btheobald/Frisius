@@ -934,7 +934,7 @@
       )
       (symbol "VDD_CORE_3V3_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "3V3_CORE" (effects (font (size 1.27 1.27))))
+          (name "VDD_CORE_3V3" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1107,6 +1107,7 @@
   (no_connect (at 170.18 99.06) (uuid 7eb63256-b2a4-4980-8cd6-5834e4749862))
   (no_connect (at 170.18 106.68) (uuid 8d87b371-b151-497a-968f-a2ed8406f394))
   (no_connect (at 170.18 109.22) (uuid 8dfa6288-5907-4b83-96db-4a49c0f6bf67))
+  (no_connect (at 78.74 97.79) (uuid a58dc52b-86fb-4262-bc92-cb13036564ef))
 
   (bus_entry (at 212.09 76.2) (size -2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1663,24 +1664,6 @@
   (hierarchical_label "DEBUG_UART{RXD TXD}" (shape bidirectional) (at 215.9 71.12 0)
     (effects (font (size 0.8 0.8)) (justify left))
     (uuid dc700855-2863-4138-ad45-d6c8ba59510d)
-  )
-
-  (symbol (lib_id "power:GND") (at 78.74 97.79 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 053cea3b-3ba6-4d55-a374-dc8b14501445)
-    (property "Reference" "#PWR0101" (id 0) (at 78.74 91.44 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 82.55 96.52 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (property "Footprint" "" (id 2) (at 78.74 97.79 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 78.74 97.79 0)
-      (effects (font (size 0.8 0.8)) hide)
-    )
-    (pin "1" (uuid 12df9be2-7012-495b-b243-65f483b71530))
   )
 
   (symbol (lib_id "power:GND") (at 76.2 109.22 0) (unit 1)
