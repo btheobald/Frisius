@@ -1,4 +1,4 @@
-18050106878007
+21332776981013
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84545,6 +84545,13 @@ UMLP-10-1.4x1.8_P0.4mm
 0
 10
 10
+bt_Package_QFN
+VQFN-16-1EP_3x3mm_P0.5mm_EP1.2x1.2mm
+VQFN, 16 Pin (http://www.ti.com/lit/ds/sbos354a/sbos354a.pdf, JEDEC MO-220 variant VEED-6), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead
+0
+21
+17
 bt_Package_SON
 XSON-8U
 
@@ -84552,3 +84559,10 @@ XSON-8U
 0
 8
 8
+bt_Resistor
+R_0805_4WKelvin
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+8
+4

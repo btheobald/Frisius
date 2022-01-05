@@ -562,7 +562,7 @@
     (uuid d9988d6f-a5d5-4301-bbc6-94bfe2778da0)
     (property "Reference" "SW1" (id 0) (at 109.22 91.44 0))
     (property "Value" "OVERRIDE" (id 1) (at 109.22 93.98 0))
-    (property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Copal_CHS-04A_W5.08mm_P1.27mm_JPin" (id 2) (at 109.22 104.14 0))
+    (property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Omron_A6H-4101_W6.15mm_P1.27mm" (id 2) (at 109.22 104.14 0))
     (property "Datasheet" "~" (id 3) (at 109.22 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
