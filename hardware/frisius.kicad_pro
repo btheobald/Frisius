@@ -125,7 +125,9 @@
         0.15,
         0.18,
         0.2,
+        0.25,
         0.254,
+        0.3,
         0.35,
         0.5,
         1.0
@@ -134,6 +136,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.2
         },
         {
           "diameter": 0.45,
@@ -391,14 +397,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Kelvin",
-        "nets": [
-          "/Power/VDD_AUX_SNS+",
-          "/Power/VDD_AUX_SNS-",
-          "/Power/VDD_CORE_SNS+",
-          "/Power/VDD_CORE_SNS-",
-          "/Power/VDD_DISP_SNS+",
-          "/Power/VDD_DISP_SNS-"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(64, 0, 220)",
         "track_width": 0.12,
@@ -479,8 +478,8 @@
       "GPS"
     ],
     [
-      "450c4339-df1d-4ed1-b57e-227d8698461a",
-      "BMS"
+      "1c2dbee6-2600-45d3-a892-1b4f3056883c",
+      "SD Card"
     ],
     [
       "25e5a417-7104-4337-b2bb-f4afd5e8777c",
@@ -488,23 +487,11 @@
     ],
     [
       "d6a81b3b-912c-47c7-b234-5345a0da5522",
-      "USB"
-    ],
-    [
-      "37545995-a677-4b8b-afa4-b7587dd9a039",
       "Power"
     ],
     [
       "574b0a16-6cf3-400e-b4ec-a1d9ebc35198",
       "Mechanical"
-    ],
-    [
-      "2f04d2d1-0a66-4103-ba34-f1189b03747e",
-      "User Interface"
-    ],
-    [
-      "e1207802-1089-4bfa-944f-d4f348e5fb72",
-      "SD Card"
     ]
   ],
   "text_variables": {}
