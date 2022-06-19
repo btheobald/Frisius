@@ -1515,7 +1515,7 @@
   )
 
   (no_connect (at 58.42 90.17) (uuid 3cc43f98-7df8-437b-981d-6ee556d450e8))
-  (no_connect (at 58.42 87.63) (uuid 3cc43f98-7df8-437b-981d-6ee556d450e8))
+  (no_connect (at 58.42 87.63) (uuid 3cc43f98-7df8-437b-981d-6ee556d450e9))
 
   (bus_entry (at 156.21 58.42) (size -2.54 -2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))

@@ -8,4 +8,5 @@
   (lib (name "bt_Package_SON")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/footprints/bt_Package_SON.pretty")(options "")(descr ""))
   (lib (name "bt_Resistor")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/footprints/bt_Resistor.pretty")(options "")(descr ""))
   (lib (name "bt_Package_BGA")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/footprints/bt_Package_BGA.pretty")(options "")(descr ""))
+  (lib (name "bt_Espressif")(type "KiCad")(uri "${KIPRJMOD}/ki_libs/footprints/bt_Espressif.pretty")(options "")(descr ""))
 )
