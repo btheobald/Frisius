@@ -33,8 +33,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 2.0,
+          "drill": 0.0,
+          "height": 1.5,
           "width": 0.7
         },
         "silk_line_width": 0.15,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|124644999|58680001|3fa9c494-9f99-4c70-9298-1750adb4c847|0b0e5cf6-6beb-4d58-ab65-61be66f873c4"
+      ],
       "meta": {
         "version": 2
       },
@@ -112,7 +114,7 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.13,
+        "min_via_annular_width": 0.12,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -478,32 +480,20 @@
       "GPS"
     ],
     [
-      "450c4339-df1d-4ed1-b57e-227d8698461a",
-      "BMS"
+      "1c2dbee6-2600-45d3-a892-1b4f3056883c",
+      "SD Card"
     ],
     [
       "25e5a417-7104-4337-b2bb-f4afd5e8777c",
-      "Display B2B"
+      "Display"
     ],
     [
       "d6a81b3b-912c-47c7-b234-5345a0da5522",
-      "USB"
-    ],
-    [
-      "37545995-a677-4b8b-afa4-b7587dd9a039",
       "Power"
     ],
     [
       "574b0a16-6cf3-400e-b4ec-a1d9ebc35198",
       "Mechanical"
-    ],
-    [
-      "2f04d2d1-0a66-4103-ba34-f1189b03747e",
-      "User Interface"
-    ],
-    [
-      "e1207802-1089-4bfa-944f-d4f348e5fb72",
-      "SD Card"
     ]
   ],
   "text_variables": {}

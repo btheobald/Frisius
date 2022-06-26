@@ -33,8 +33,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 2.0,
+          "drill": 0.0,
+          "height": 1.5,
           "width": 0.7
         },
         "silk_line_width": 0.15,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|124644999|58680001|3fa9c494-9f99-4c70-9298-1750adb4c847|0b0e5cf6-6beb-4d58-ab65-61be66f873c4"
+      ],
       "meta": {
         "version": 2
       },
@@ -112,7 +114,7 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.13,
+        "min_via_annular_width": 0.12,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -483,7 +485,7 @@
     ],
     [
       "25e5a417-7104-4337-b2bb-f4afd5e8777c",
-      "Display B2B"
+      "Display"
     ],
     [
       "d6a81b3b-912c-47c7-b234-5345a0da5522",
