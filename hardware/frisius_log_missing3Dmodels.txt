@@ -1,1 +1,0 @@
-[('N3', '/app/extensions/Library/3dmodels/RF_Shielding.3dshapes/Laird_Technologies_BMI-S-101_13.66x12.70mm.wrl'), ('J3', '/home/bt/Projects/Frisius/hardware/ki_libs/models/bt_Connector_USB.model/124019032112A--3DModel-STEP-533217.STEP')]

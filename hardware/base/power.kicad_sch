@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 3f542ee9-35fa-4600-92f4-72913ea55c64)
+
+  (paper "A4")
+
+  (title_block
+    (rev "A")
+    (company "Frisius")
+  )
+
+  (lib_symbols
+  )
+
+)
