@@ -492,9 +492,6 @@
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/13d2a2ba-45f9-43b7-b1f4-e9e5528e18a9"
       (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
     )
-    (path "/1c2dbee6-2600-45d3-a892-1b4f3056883c/3de27388-8405-40c0-8ffb-59342b026942"
-      (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
-    )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/a3c1874f-1862-4ffe-baa9-4b513ce5e784"
       (reference "#PWR0146") (unit 1) (value "VDD_NVDC") (footprint "")
     )
@@ -639,8 +636,8 @@
     (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/0fd87936-a0fd-4778-9739-19cb833012be"
       (reference "#PWR0193") (unit 1) (value "VDD_AUX_3V3") (footprint "")
     )
-    (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/a88f7ed0-123a-4998-a1b7-1ae27e564058"
-      (reference "#PWR0194") (unit 1) (value "VDD_AUX_3V3") (footprint "")
+    (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/7e1b3109-aac1-4387-ad15-1b87c2e241b5"
+      (reference "#PWR0194") (unit 1) (value "VDD_NVDC") (footprint "")
     )
     (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/cc7b6560-fe71-452f-aa82-7b9eb82586de"
       (reference "#PWR0195") (unit 1) (value "VDD_AUX_3V3") (footprint "")
@@ -785,9 +782,6 @@
     )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/e8dd91a1-2ee2-4d33-8514-02c4a869ad38"
       (reference "C39") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/1c2dbee6-2600-45d3-a892-1b4f3056883c/2ababb3d-1617-45bc-89b8-7714c6024300"
-      (reference "C40") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/1a8919ca-a320-4af9-9705-0211ff250195"
       (reference "C41") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
