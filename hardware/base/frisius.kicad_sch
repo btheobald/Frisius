@@ -633,9 +633,6 @@
     (path "/f177a68e-766e-414a-8201-ac090cc077c2/381d97f3-6909-4b5d-983c-8aa727ce3f6f"
       (reference "#PWR0192") (unit 1) (value "VDD_AUX_3V3") (footprint "")
     )
-    (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/0fd87936-a0fd-4778-9739-19cb833012be"
-      (reference "#PWR0193") (unit 1) (value "VDD_AUX_3V3") (footprint "")
-    )
     (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/7e1b3109-aac1-4387-ad15-1b87c2e241b5"
       (reference "#PWR0194") (unit 1) (value "VDD_NVDC") (footprint "")
     )
@@ -841,7 +838,7 @@
       (reference "J6") (unit 1) (value "CapTouch") (footprint "Connector_FFC-FPC:TE_0-1734839-8_1x08-1MP_P0.5mm_Horizontal")
     )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/57b9e7ee-32e7-41da-8ffe-9cce50231690"
-      (reference "J7") (unit 1) (value "I2C ISENSE") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "J7") (unit 1) (value "I2C ISENSE") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical")
     )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/1aecd22c-b3c8-443a-b78c-9afe486d1237"
       (reference "L1") (unit 1) (value "1u") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
@@ -863,9 +860,6 @@
     )
     (path "/574b0a16-6cf3-400e-b4ec-a1d9ebc35198/5484fbad-560f-46b8-830c-10ee7c8e4659"
       (reference "N7") (unit 1) (value "Battery") (footprint "")
-    )
-    (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/e3794180-983a-453b-b663-9c7e3cde7a4d"
-      (reference "Q1") (unit 1) (value "Q_NMOS_DGS") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
     )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/1db605b1-b4a1-4ded-a42f-9bee5f264a0c"
       (reference "Q2") (unit 1) (value "Q_NMOS_DGS") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
