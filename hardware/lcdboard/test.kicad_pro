@@ -390,7 +390,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "test.step",
-      "vrml": ""
+      "vrml": "test.wrl"
     },
     "page_layout_descr_file": ""
   },
