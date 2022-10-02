@@ -483,6 +483,9 @@
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/05d6c47f-9b9e-4957-a16c-67b96bf9d0f7"
       (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
     )
+    (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/8de55b53-0a77-4530-b4df-4c44b7d315c4"
+      (reference "#PWR0142") (unit 1) (value "VDD_AUX_3V3") (footprint "")
+    )
     (path "/f177a68e-766e-414a-8201-ac090cc077c2/da2a84d6-3628-4e91-8ebc-28bf08770d39"
       (reference "#PWR0143") (unit 1) (value "GND") (footprint "")
     )
@@ -581,9 +584,6 @@
     )
     (path "/f177a68e-766e-414a-8201-ac090cc077c2/95a66b04-41e8-4540-99cc-45aab104cd63"
       (reference "#PWR0189") (unit 1) (value "VDD_AUX_3V3") (footprint "")
-    )
-    (path "/f177a68e-766e-414a-8201-ac090cc077c2/7b4a1d72-af86-4d62-909c-c5af0673ef59"
-      (reference "#PWR0190") (unit 1) (value "VDD_AUX_3V3") (footprint "")
     )
     (path "/f177a68e-766e-414a-8201-ac090cc077c2/ff208afb-11db-44a9-b17e-8feae4bcd0eb"
       (reference "#PWR0191") (unit 1) (value "VDD_AUX_3V3") (footprint "")
@@ -801,10 +801,10 @@
     (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/ee860c49-192b-4002-8f3a-32350e5f43f8"
       (reference "R2") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/f177a68e-766e-414a-8201-ac090cc077c2/3508e9f2-a7cd-49eb-ba7a-dad5245ca223"
+    (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/fd9105f9-b9ae-443d-ad54-a60062078afb"
       (reference "R3") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/f177a68e-766e-414a-8201-ac090cc077c2/04dde832-420d-470a-997a-fa9e2e216f08"
+    (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/4f47baad-8a7c-473a-908b-e953be1238d0"
       (reference "R4") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/c1f84d11-34c3-4d8c-a864-a07589277b2b"
@@ -936,11 +936,8 @@
     (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/eaf3ece2-3708-4052-a245-c5a820150496"
       (reference "SW4") (unit 1) (value "NAV") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
     )
-    (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/2e97142c-ee0e-4aa6-9cb7-89b2dc4dd00a"
-      (reference "TP12") (unit 1) (value "GPS_RST") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/624c9934-9ec1-4e9e-8338-39b1cfd40b0f"
-      (reference "TP13") (unit 1) (value "GPS_INT") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/bc8b5f1d-4a0e-432f-811c-cec81f879e3a"
+      (reference "TP1") (unit 1) (value "GPS_FON") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/27c44693-a2f9-4ad4-b5c5-59704384635d"
       (reference "TP14") (unit 1) (value "GPS_FON") (footprint "TestPoint:TestPoint_Pad_D1.0mm")

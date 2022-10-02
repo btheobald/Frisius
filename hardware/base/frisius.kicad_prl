@@ -1,11 +1,22 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
-    "hidden_nets": [],
+    "hidden_nets": [
+      "VBUS",
+      "VDD_NVDC",
+      "+BATT",
+      "VDD_CORE_3V3",
+      "/Power/chg_bst",
+      "/Power/chg_sw",
+      "VDD_AUX_3V3",
+      "/Power/chg_pmid",
+      "/Power/chg_batt",
+      "GND"
+    ],
     "high_contrast_mode": 0,
-    "net_color_mode": 1,
+    "net_color_mode": 2,
     "opacity": {
       "pads": 1.0,
       "tracks": 1.0,
@@ -62,7 +73,7 @@
       35,
       36
     ],
-    "visible_layers": "f00ffcf_ffffffff",
+    "visible_layers": "0001000_ffffffff",
     "zone_display_mode": 1
   },
   "meta": {
