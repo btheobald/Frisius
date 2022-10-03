@@ -199,7 +199,7 @@
   (symbol (lib_id "power:GND") (at 69.215 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0b6eeb64-188f-44c7-ac5a-1741b24d7b7f)
-    (property "Reference" "#PWR?" (id 0) (at 69.215 140.97 0)
+    (property "Reference" "#PWR0151" (id 0) (at 69.215 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 69.215 139.7 0))
@@ -215,7 +215,7 @@
   (symbol (lib_id "power:GND") (at 59.055 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0c23defb-105e-464b-8169-1a8c0df61355)
-    (property "Reference" "#PWR?" (id 0) (at 59.055 140.97 0)
+    (property "Reference" "#PWR0152" (id 0) (at 59.055 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 59.055 139.7 0))
@@ -231,7 +231,7 @@
   (symbol (lib_id "power:GND") (at 59.055 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 28ccd33f-7c09-4427-a810-2072c0f109f4)
-    (property "Reference" "#PWR?" (id 0) (at 59.055 156.21 0)
+    (property "Reference" "#PWR0149" (id 0) (at 59.055 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 59.055 154.94 0))
@@ -247,7 +247,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 59.055 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2ad0027e-87dd-40cf-b0af-f4f7822622e1)
-    (property "Reference" "H?" (id 0) (at 61.595 143.5099 0)
+    (property "Reference" "H2" (id 0) (at 61.595 143.5099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BL" (id 1) (at 61.595 146.0499 0)
@@ -265,7 +265,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 69.215 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3049b83e-09c4-4570-bf9f-0f383c565431)
-    (property "Reference" "H?" (id 0) (at 71.755 143.5099 0)
+    (property "Reference" "H4" (id 0) (at 71.755 143.5099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BR" (id 1) (at 71.755 146.0499 0)
@@ -283,7 +283,7 @@
   (symbol (lib_id "power:GND") (at 69.215 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3113954d-b76d-4d82-9a04-65d3ce9cd25a)
-    (property "Reference" "#PWR?" (id 0) (at 69.215 156.21 0)
+    (property "Reference" "#PWR0150" (id 0) (at 69.215 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 69.215 154.94 0))
@@ -299,7 +299,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 69.215 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 425afff0-a816-49d5-b502-1f9df6e8fa18)
-    (property "Reference" "H?" (id 0) (at 71.755 129.5399 0)
+    (property "Reference" "H3" (id 0) (at 71.755 129.5399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TR" (id 1) (at 71.755 132.0799 0)
@@ -317,7 +317,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 59.055 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 540523f8-1055-4635-9b1d-2957ff44902d)
-    (property "Reference" "H?" (id 0) (at 61.595 129.5399 0)
+    (property "Reference" "H1" (id 0) (at 61.595 129.5399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TL" (id 1) (at 61.595 132.0799 0)
@@ -720,6 +720,18 @@
     (path "/f177a68e-766e-414a-8201-ac090cc077c2/eff03a55-947d-4174-a115-e476380bed38"
       (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
     )
+    (path "/28ccd33f-7c09-4427-a810-2072c0f109f4"
+      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3113954d-b76d-4d82-9a04-65d3ce9cd25a"
+      (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0b6eeb64-188f-44c7-ac5a-1741b24d7b7f"
+      (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0c23defb-105e-464b-8169-1a8c0df61355"
+      (reference "#PWR0152") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/192511b0-1269-4b3b-a3cb-9f5e6d5f8e19"
       (reference "#PWR0153") (unit 1) (value "VDD_CORE_3V3") (footprint "")
     )
@@ -752,6 +764,9 @@
     )
     (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/2cabb0a0-5f25-4aad-868e-470725eafca8"
       (reference "#PWR0163") (unit 1) (value "VDD_AUX_3V3") (footprint "")
+    )
+    (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/656a1aa6-83b0-4862-be2f-3f423f22c905"
+      (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
     )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/36c552b1-3458-4f15-8381-25605d32664b"
       (reference "#PWR0165") (unit 1) (value "VDD_NVDC") (footprint "")
@@ -809,18 +824,6 @@
     )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/bfdf80d1-118e-4505-a646-d6f6f93aeb7d"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0b6eeb64-188f-44c7-ac5a-1741b24d7b7f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0c23defb-105e-464b-8169-1a8c0df61355"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/28ccd33f-7c09-4427-a810-2072c0f109f4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/3113954d-b76d-4d82-9a04-65d3ce9cd25a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/1c2dbee6-2600-45d3-a892-1b4f3056883c/4a93e175-e777-4d61-a640-504f0de2dffd"
       (reference "#U0118") (unit 1) (value "VDD_AUX_3V3") (footprint "")
@@ -960,17 +963,17 @@
     (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/0ef8a302-d2c7-4e2e-aa3b-2dc97d3c2965"
       (reference "D7") (unit 1) (value "LED_Small_Filled") (footprint "LED_SMD:LED_0603_1608Metric")
     )
-    (path "/2ad0027e-87dd-40cf-b0af-f4f7822622e1"
-      (reference "H?") (unit 1) (value "BL") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633")
+    (path "/540523f8-1055-4635-9b1d-2957ff44902d"
+      (reference "H1") (unit 1) (value "TL") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633")
     )
-    (path "/3049b83e-09c4-4570-bf9f-0f383c565431"
-      (reference "H?") (unit 1) (value "BR") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633")
+    (path "/2ad0027e-87dd-40cf-b0af-f4f7822622e1"
+      (reference "H2") (unit 1) (value "BL") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633")
     )
     (path "/425afff0-a816-49d5-b502-1f9df6e8fa18"
-      (reference "H?") (unit 1) (value "TR") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633")
+      (reference "H3") (unit 1) (value "TR") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633")
     )
-    (path "/540523f8-1055-4635-9b1d-2957ff44902d"
-      (reference "H?") (unit 1) (value "TL") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633")
+    (path "/3049b83e-09c4-4570-bf9f-0f383c565431"
+      (reference "H4") (unit 1) (value "BR") (footprint "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M1.6_H2mm_9774020633")
     )
     (path "/1c2dbee6-2600-45d3-a892-1b4f3056883c/34fc34eb-a9d0-4ff6-829a-aed671c67dca"
       (reference "J1") (unit 1) (value "MEM2067") (footprint "bt_Connector_uSD:GCT_MEM2067-02-180-00-A_REVB")
@@ -1158,6 +1161,9 @@
     (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/bc8b5f1d-4a0e-432f-811c-cec81f879e3a"
       (reference "TP1") (unit 1) (value "GPS_FON") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/9da6ce66-df01-4c72-a992-89199af8ac7c"
+      (reference "TP2") (unit 1) (value "GPS_FON") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/d09c9d73-a3ac-404b-b5ac-4477ad82de80/27c44693-a2f9-4ad4-b5c5-59704384635d"
       (reference "TP14") (unit 1) (value "GPS_FON") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -1189,7 +1195,7 @@
       (reference "U9") (unit 1) (value "MAX17048G") (footprint "Package_DFN_QFN:TDFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.2mm")
     )
     (path "/de840488-ca73-469b-adda-a3c2d8f9c87a/ab16636a-57f9-4970-92b4-fe29e05d6e24"
-      (reference "U10") (unit 1) (value "TCA9801") (footprint "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm")
+      (reference "U10") (unit 1) (value "TCA9803") (footprint "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm")
     )
     (path "/d6a81b3b-912c-47c7-b234-5345a0da5522/d1b32182-a2e5-42d0-b8dc-e08ac1dd12e1"
       (reference "U12") (unit 1) (value "PAC1944") (footprint "Package_DFN_QFN:UQFN-16-1EP_4x4mm_P0.65mm_EP2.7x2.7mm")
