@@ -44,7 +44,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
+          "45_degree_only": true,
           "min_clearance": 0.254
         }
       },
@@ -56,7 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|124644999|58680001|3fa9c494-9f99-4c70-9298-1750adb4c847|0b0e5cf6-6beb-4d58-ab65-61be66f873c4"
+        "courtyards_overlap|81579999|48817501|352cfa6a-0eea-4c5d-bacb-d616586ef6bb|c45b7990-799f-49be-92a0-9cefa4994633"
       ],
       "meta": {
         "version": 2
@@ -114,7 +114,7 @@
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.12,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -374,7 +374,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -391,7 +391,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -415,7 +415,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -448,7 +448,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -474,7 +474,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -483,8 +483,6 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "nets": [
-          "/Display/SYS_I2C.SCL",
-          "/Display/SYS_I2C.SDA",
           "/Display/TOUCH_INT",
           "/Power/ISENSE_SCL",
           "/Power/ISENSE_SDA"
@@ -498,7 +496,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -526,7 +524,7 @@
       },
       {
         "bus_width": 0.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -546,7 +544,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -571,7 +569,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -592,7 +590,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -612,7 +610,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -646,7 +644,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.12,
@@ -680,7 +678,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.09,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -708,7 +706,9 @@
       "version": 2
     },
     "net_colors": {
-      "/Display/DISPLAY_BL": "rgb(255, 64, 89)"
+      "VDD_AUX_3V3": "rgb(0, 255, 24)",
+      "VDD_CORE_3V3": "rgb(204, 0, 255)",
+      "VDD_NVDC": "rgb(0, 216, 255)"
     }
   },
   "pcbnew": {
@@ -788,10 +788,6 @@
     [
       "d6a81b3b-912c-47c7-b234-5345a0da5522",
       "Power"
-    ],
-    [
-      "574b0a16-6cf3-400e-b4ec-a1d9ebc35198",
-      "Mechanical"
     ]
   ],
   "text_variables": {}
