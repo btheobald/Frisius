@@ -696,6 +696,10 @@
     (uuid 39c65d31-0362-42dc-b867-5203299517c9)
   )
 
+  (label "imu_crst" (at 97.79 87.63 0)
+    (effects (font (size 0.8 0.8)) (justify left bottom))
+    (uuid 04568a47-d90f-4ea0-b932-f126616a5a67)
+  )
   (label "SYS_I2C.SDA" (at 134.62 67.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 15e26825-ff42-4e7a-a470-f889a04daaa6)
